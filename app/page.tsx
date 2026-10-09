@@ -33,7 +33,7 @@ export default function Page() {
     const handler = (window as any).PaystackPop.setup({
       key: 'pk_live_38382c65e9b4203605860473d6a75650c4033753', // your live key
       email: 'customer@aiphotoroom.com',
-      amount: 500 * 100,
+      amount: 150 * 150,
       currency: 'KES',
       label: 'AI PhotoRoom Export',
       onClose: () => alert("Payment cancelled"),
@@ -61,7 +61,7 @@ export default function Page() {
       </div>
 
       <button onClick={handleExport} className="bg-green-600 px-8 py-3 rounded-full font-bold">
-        {exporting? "Exporting..." : "Export - 500 KES"}
+        {exporting? "Exporting..." : "Export - 150 KES"}
       </button>
       {!paystackReady && <p className="text-xs mt-2 opacity-60">Loading payment...</p>}
     </main>
