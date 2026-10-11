@@ -29,7 +29,7 @@ export default function Page() {
       alert("Paystack loading... wait 2 sec"); return;
     }
     const handler = (window as any).PaystackPop.setup({
-      key: 'pk_test_5c833df32eb786705667d7860ff7898c3d2e1REPLACE_WITH_YOUR_KEY',
+      key: 'pk_test_5c833df32eb786705667d7860ff7898c3d2e1efc',
       email: 'customer@example.com',
       amount: 15000,
       currency: 'KES',
