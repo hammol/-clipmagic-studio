@@ -31,7 +31,7 @@ export default function Page() {
     const handler = (window as any).PaystackPop.setup({
       key:'pk_live_38382c65e9b4203605860473d6a75650c4033753',
       email: 'customer@example.com',
-      amount: 15000,
+      amount: 150,
       currency: 'KES',
       callback: function(){
         alert("Payment success! Downloading...");
