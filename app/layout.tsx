@@ -1,7 +1,18 @@
 import "./globals.css";
 
-export const metadata = { title: 'ClipMagic Studio' }
+export const metadata = {
+  title: "ClipMagic Studio",
+  description: "Transform your clips - 150 KES",
+};
 
-export default function RootLayout({children}:{children:React.ReactNode}){
-  return <html lang="en"><body className="bg-black text-white min-h-screen antialiased">{children}</body></html>
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }
